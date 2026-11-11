@@ -1,0 +1,36 @@
+pareto_point_id,travel_leg_id,departure_port,arrival_port,departure_day,departure_time_min,arrival_day,arrival_time_min,dwell_time_at_departure_port_h,refueling_at_departure_port_t,departure_fuel_t,arrival_fuel_t,sailing_distance_nm,sailing_time_h,idle_time_on_leg_h,leg_fuel_consumption_t
+P001,L001,Marseille,Monaco,1,780.0,2,480.0,0.0,0.0,221.446589364,194.651552050956,121.0,8.066666666666666,10.933333333333334,26.795037313044
+P001,L002,Monaco,Genoa,2,1260.0,3,480.0,13.0,0.0,194.651552050956,175.607145365652,86.0,5.733333333333333,5.266666666666667,19.044406685304
+P001,L003,Genoa,Ajaccio,3,1260.0,4,480.0,13.0,0.0,175.607145365652,139.73279788868393,162.0,10.8,0.2,35.874347476968
+P001,L004,Ajaccio,Naples,4,1260.0,6,480.0,13.0,0.0,139.73279788868393,76.17762674121593,287.0,19.133333333333333,15.866666666666667,63.555171147468
+P001,L005,Naples,Palermo,6,1260.0,7,504.0,13.0,0.0,76.17762674121593,38.310259959971916,171.0,11.4,0.0,37.867366781244
+P001,L006,Palermo,Cagliari,7,1260.0,9,480.0,12.6,183.13632940402834,221.44658936400026,172.50689311455625,221.0,14.733333333333333,20.266666666666666,48.939696249444
+P001,L007,Cagliari,Palma de Mallorca,9,1260.0,11,480.0,13.0,0.0,172.50689311455625,98.54373226698027,334.0,22.266666666666666,12.733333333333333,73.96316084757599
+P001,L008,Palma de Mallorca,Eivissa,11,1260.0,12,480.0,13.0,0.0,98.54373226698027,81.27089829658826,78.0,5.2,5.8,17.272833970392
+P001,L009,Eivissa,Marseille,12,1260.0,14,960.0,13.0,0.0,81.27089829658826,5.979057912828239,340.0,22.666666666666668,20.333333333333332,75.29184038376
+
+label,value
+pareto_point_index,1
+total_fuel_consumption_t,398.6038608552
+cumulative_dwell_time_h,103.6
+total_sailing_distance_nm,1800.0
+total_sailing_time_h,120.0
+total_idle_time_h,91.39999999999999
+total_refueling_quantity_t,183.13632940402834
+n_refueling_ports,1
+is_fuel_extreme,True
+is_dwell_extreme,True
+
+label,value
+RUN_STATISTICS,
+test_instance_id,14WMED9_S_LNG
+run_status,COMPLETE
+frontier_complete,True
+n_pareto_points,1
+weighted_sum_searches,0
+lexicographic_searches,2
+milp_solver_calls,4
+total_mip_time_s,8.64300012588501
+runtime_s,8.691529300063848
+error_type,
+error_message,

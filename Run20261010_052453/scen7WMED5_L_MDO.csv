@@ -1,0 +1,49 @@
+pareto_point_id,travel_leg_id,departure_port,arrival_port,departure_day,departure_time_min,arrival_day,arrival_time_min,dwell_time_at_departure_port_h,refueling_at_departure_port_t,departure_fuel_t,arrival_fuel_t,sailing_distance_nm,sailing_time_h,idle_time_on_leg_h,leg_fuel_consumption_t
+P001,L001,Barcelona,Palma de Mallorca,1,780.0,2,480.0,0.0,0.0,5329.859791872,5196.946413312192,133.0,7.0,12.0,132.913378559808
+P001,L002,Palma de Mallorca,Cagliari,2,1260.0,4,480.0,13.0,0.0,5196.946413312192,4863.163943846208,334.0,17.57894736842105,17.42105263157838,333.782469465984
+P001,L003,Cagliari,La Spezia,4,1260.0,5,865.2631578947476,13.0,0.0,4863.1639438462025,4532.379520513146,331.0,17.42105263157895,0.0,330.784423333056
+P001,L004,La Spezia,Marseille,5,1260.0,6,540.0,6.578947368420874,0.0,4532.379520513145,4304.528014410616,228.0,12.0,0.0,227.851506102528
+P001,L005,Marseille,Barcelona,6,1260.0,7,480.0,12.0,0.0,4304.528014410616,4113.652410614199,191.0,10.052631578947368,0.9473684210525638,190.875603796416
+P002,L001,Barcelona,Cagliari,1,780.0,2,524.21052631579,0.0,0.0,5329.859791872,4955.104025256,375.0,19.736842105263158,0.0,374.755766616
+P002,L002,Cagliari,La Spezia,2,1260.0,4,480.0,12.263157894736832,0.0,4955.104025256,4624.319601922944,331.0,17.42105263157895,17.578947368421055,330.784423333056
+P002,L003,La Spezia,Marseille,4,1200.0,5,480.0,12.0,0.6803980770564522,4625.0,4397.148493897472,228.0,12.0,0.0,227.851506102528
+P002,L004,Marseille,Palma de Mallorca,5,1260.0,6,751.5789473684126,13.0,0.0,4397.148493897472,4102.340624159552,295.0,15.526315789473685,0.0,294.80786973792
+P002,L005,Palma de Mallorca,Barcelona,6,1260.0,7,480.0,8.473684210526455,1227.5191677124476,5329.859791872,5196.946413312196,133.0,7.0,4.0,132.913378559808
+
+label,value
+pareto_point_index,1
+total_fuel_consumption_t,1216.207381257792
+cumulative_dwell_time_h,44.57894736842088
+total_sailing_distance_nm,1217.0
+total_sailing_time_h,64.05263157894737
+total_idle_time_h,30.368421052630943
+total_refueling_quantity_t,0.0
+n_refueling_ports,0
+is_fuel_extreme,True
+is_dwell_extreme,False
+
+label,value
+pareto_point_index,2
+total_fuel_consumption_t,1361.1129443493123
+cumulative_dwell_time_h,45.736842105263285
+total_sailing_distance_nm,1362.0
+total_sailing_time_h,71.6842105263158
+total_idle_time_h,21.578947368421055
+total_refueling_quantity_t,1228.199565789504
+n_refueling_ports,2
+is_fuel_extreme,False
+is_dwell_extreme,True
+
+label,value
+RUN_STATISTICS,
+test_instance_id,7WMED5_L_MDO
+run_status,COMPLETE
+frontier_complete,True
+n_pareto_points,2
+weighted_sum_searches,1
+lexicographic_searches,4
+milp_solver_calls,9
+total_mip_time_s,0.5260002613067627
+runtime_s,0.5776173999765888
+error_type,
+error_message,

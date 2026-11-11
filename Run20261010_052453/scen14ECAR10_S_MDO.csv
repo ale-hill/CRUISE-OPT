@@ -1,0 +1,15 @@
+pareto_point_id,travel_leg_id,departure_port,arrival_port,departure_day,departure_time_min,arrival_day,arrival_time_min,dwell_time_at_departure_port_h,refueling_at_departure_port_t,departure_fuel_t,arrival_fuel_t,sailing_distance_nm,sailing_time_h,idle_time_on_leg_h,leg_fuel_consumption_t
+
+label,value
+RUN_STATISTICS,
+test_instance_id,14ECAR10_S_MDO
+run_status,INFEASIBLE
+frontier_complete,True
+n_pareto_points,0
+weighted_sum_searches,0
+lexicographic_searches,1
+milp_solver_calls,1
+total_mip_time_s,51.687000036239624
+runtime_s,51.70453089999501
+error_type,
+error_message,

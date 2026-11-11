@@ -1,0 +1,33 @@
+pareto_point_id,travel_leg_id,departure_port,arrival_port,departure_day,departure_time_min,arrival_day,arrival_time_min,dwell_time_at_departure_port_h,refueling_at_departure_port_t,departure_fuel_t,arrival_fuel_t,sailing_distance_nm,sailing_time_h,idle_time_on_leg_h,leg_fuel_consumption_t
+P001,L001,Fort Lauderdale,Nassau,1,780.0,2,480.0,0.0,0.0,936.88941654,799.8224949001979,209.0,12.294117647058824,6.705882352941171,137.06692163980202
+P001,L002,Nassau,Cancun,2,1260.0,3,480.0,13.0,0.0,799.8224949001979,692.2675898814059,164.0,9.647058823529411,1.3529411764706074,107.55490501879201
+P001,L003,Cancun,Cozumel,3,1260.0,4,480.0,13.0,0.0,692.2675898814059,662.7555732603955,45.0,2.6470588235294117,8.352941176470562,29.51201662101
+P001,L004,Cozumel,Cayman Islands,4,1260.0,6,480.0,13.0,0.0,662.7555732603955,452.2365213638571,321.0,18.88235294117647,16.11764705882335,210.519051896538
+P001,L005,Cayman Islands,Kingston,6,1260.0,8,480.0,13.0,0.0,452.2365213638571,166.95369402742713,435.0,25.58823529411765,9.411764705882199,285.28282733643005
+P001,L006,Kingston,Fort Lauderdale,8,1058.8235294117585,10,960.0,9.64705882352946,359.2034023014361,526.1570963288632,9.3688941654,788.0,46.35294117647059,0.0,516.788202163464
+
+label,value
+pareto_point_index,1
+total_fuel_consumption_t,1286.723924676036
+cumulative_dwell_time_h,61.64705882352946
+total_sailing_distance_nm,1962.0
+total_sailing_time_h,115.41176470588235
+total_idle_time_h,41.94117647058789
+total_refueling_quantity_t,359.2034023014361
+n_refueling_ports,1
+is_fuel_extreme,True
+is_dwell_extreme,True
+
+label,value
+RUN_STATISTICS,
+test_instance_id,10WCAR6_M_LNG
+run_status,COMPLETE
+frontier_complete,True
+n_pareto_points,1
+weighted_sum_searches,0
+lexicographic_searches,2
+milp_solver_calls,4
+total_mip_time_s,0.3749997615814209
+runtime_s,0.4068663999205455
+error_type,
+error_message,

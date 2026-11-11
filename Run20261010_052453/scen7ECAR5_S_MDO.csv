@@ -1,0 +1,49 @@
+pareto_point_id,travel_leg_id,departure_port,arrival_port,departure_day,departure_time_min,arrival_day,arrival_time_min,dwell_time_at_departure_port_h,refueling_at_departure_port_t,departure_fuel_t,arrival_fuel_t,sailing_distance_nm,sailing_time_h,idle_time_on_leg_h,leg_fuel_consumption_t
+P001,L001,Antigua,San Juan,1,780.0,2,604.0,0.0,0.0,433.0511080896,338.3128502890752,316.0,21.066666666666666,0.0,94.7382578005248
+P001,L002,San Juan,St. Thomas,2,1260.0,3,480.0,10.933333333333334,0.0,338.3128502890752,308.9319981863808,98.0,6.533333333333333,4.466666666666667,29.3808521026944
+P001,L003,St. Thomas,Barbados,3,1260.0,5,480.0,13.0,0.0,308.9319981863803,169.2230483919355,466.0,31.066666666666666,3.933333333333333,139.7089497944448
+P001,L004,Barbados,St. Lucia,5,1260.0,6,480.0,13.0,263.8280596976645,433.0511080896,388.08041609568005,150.0,10.0,1.0,44.97069199392
+P001,L005,St. Lucia,Antigua,6,1260.0,7,960.0,13.0,0.0,388.08041609568005,315.8275042921153,241.0,16.066666666666666,2.933333333333333,72.2529118035648
+P002,L001,Antigua,St. Thomas,1,780.0,2,480.0,0.0,0.0,433.0511080896,361.39780551262083,239.0,15.933333333333334,3.066666666666667,71.6533025769792
+P002,L002,St. Thomas,San Juan,2,1260.0,3,480.0,13.0,0.0,361.39780551262083,332.01695340992643,98.0,6.533333333333333,4.466666666666667,29.3808521026944
+P002,L003,San Juan,Barbados,3,1152.0,5,480.0,11.2,0.9830465900735703,333.0,167.5078534623744,552.0,36.8,0.0,165.49214653762562
+P002,L004,Barbados,St. Lucia,5,1260.0,6,480.0,13.0,100.05110808960004,267.55896155197445,222.58826955805446,150.0,10.0,1.0,44.97069199392
+P002,L005,St. Lucia,Antigua,6,1260.0,7,784.0,13.0,210.46283853154554,433.0511080896,360.79819628603565,241.0,16.066666666666666,0.0,72.2529118035648
+
+label,value
+pareto_point_index,1
+total_fuel_consumption_t,381.05166349514883
+cumulative_dwell_time_h,49.93333333333333
+total_sailing_distance_nm,1271.0
+total_sailing_time_h,84.73333333333333
+total_idle_time_h,12.333333333333334
+total_refueling_quantity_t,263.8280596976645
+n_refueling_ports,1
+is_fuel_extreme,True
+is_dwell_extreme,False
+
+label,value
+pareto_point_index,2
+total_fuel_consumption_t,383.749905014784
+cumulative_dwell_time_h,50.2
+total_sailing_distance_nm,1280.0
+total_sailing_time_h,85.33333333333333
+total_idle_time_h,8.533333333333333
+total_refueling_quantity_t,311.49699321121915
+n_refueling_ports,3
+is_fuel_extreme,False
+is_dwell_extreme,True
+
+label,value
+RUN_STATISTICS,
+test_instance_id,7ECAR5_S_MDO
+run_status,COMPLETE
+frontier_complete,True
+n_pareto_points,2
+weighted_sum_searches,1
+lexicographic_searches,4
+milp_solver_calls,9
+total_mip_time_s,0.4089999198913574
+runtime_s,0.4540703999809921
+error_type,
+error_message,

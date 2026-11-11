@@ -1,0 +1,34 @@
+pareto_point_id,travel_leg_id,departure_port,arrival_port,departure_day,departure_time_min,arrival_day,arrival_time_min,dwell_time_at_departure_port_h,refueling_at_departure_port_t,departure_fuel_t,arrival_fuel_t,sailing_distance_nm,sailing_time_h,idle_time_on_leg_h,leg_fuel_consumption_t
+P001,L001,Barcelona,Palma de Mallorca,1,780.0,2,480.0,0.0,0.0,3331.16236992,3220.40122112016,133.0,7.823529411764706,11.176470588235285,110.76114879984
+P001,L002,Palma de Mallorca,Cagliari,2,1260.0,4,480.0,13.0,0.0,3220.40122112016,2942.2491632318342,334.0,19.647058823529413,15.35294117647046,278.15205788832
+P001,L003,Cagliari,Palermo,4,1140.0,5,480.0,11.0,0.0,2942.249163231839,2758.2024422937484,221.0,13.0,0.0,184.04672093808
+P001,L004,Palermo,Naples,5,1260.0,6,480.0,13.0,0.0,2758.2024422937484,2615.795250979673,171.0,10.058823529411764,0.9411764705882334,142.40719131408
+P001,L005,Naples,La Spezia,6,1260.0,8,480.0,13.0,0.0,2615.795250979677,2365.125282643189,301.0,17.705882352941178,17.294117647058815,250.66996833648
+P001,L006,La Spezia,Marseille,8,1115.2941176470595,9,480.0,10.588235294117657,0.0,2365.1252826431883,2175.2490275577484,228.0,13.411764705882353,0.0,189.87625508544
+P001,L007,Marseille,Barcelona,9,1260.0,10,494.1176470588234,13.0,0.0,2175.2490275577484,2016.1860243940655,191.0,11.235294117647058,0.0,159.06300316368
+
+label,value
+pareto_point_index,1
+total_fuel_consumption_t,1314.97634552592
+cumulative_dwell_time_h,73.58823529411765
+total_sailing_distance_nm,1579.0
+total_sailing_time_h,92.88235294117646
+total_idle_time_h,44.76470588235279
+total_refueling_quantity_t,0.0
+n_refueling_ports,0
+is_fuel_extreme,True
+is_dwell_extreme,True
+
+label,value
+RUN_STATISTICS,
+test_instance_id,10WMED7_M_MDO
+run_status,COMPLETE
+frontier_complete,True
+n_pareto_points,1
+weighted_sum_searches,0
+lexicographic_searches,2
+milp_solver_calls,4
+total_mip_time_s,2.1080002784729004
+runtime_s,2.152670899988152
+error_type,
+error_message,
